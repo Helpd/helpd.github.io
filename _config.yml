@@ -2,6 +2,7 @@ defaults:
   -
     scope:
       path: ""
+      baseurl: ""
     values:
       layout: "default"
       site: "Helpd.me"
