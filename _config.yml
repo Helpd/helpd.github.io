@@ -3,4 +3,4 @@ defaults:
     values:
       permalink: "/blog/:categories/:title"
       layout: "default"
-      site: "Helpd.me"
+      tagline: "Helpd.me"
