@@ -4,3 +4,6 @@ permalink: /blog/:categories/:title
 # Set the defaults for posts and pages.
 layout: default
 tagline: Helpd.me
+
+box:
+  icon: false
