@@ -31,3 +31,15 @@ body{
 	padding: 10px;
 	left: 45%;
 }
+
+.right-nav {
+	position: absolute;
+	right: 20px;
+	text-align: right;	
+}
+
+.left-nav {
+	position: absolute;
+	left: 20px;
+	text-align: right;	
+}
