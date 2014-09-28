@@ -1,6 +1,3 @@
-defaults:
-  -
-    values:
-      permalink: "/blog/:categories/:title"
-      layout: "default"
-      tagline: "Helpd.me"
+permalink: /blog/:categories/:title
+layout: default
+tagline: Helpd.me
