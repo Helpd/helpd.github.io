@@ -1,3 +1,6 @@
-permalink: "/blog/:categories/:title"
-layout: "default"
-site: "Helpd.me"
+defaults:
+  -
+    values:
+      permalink: "/blog/:categories/:title"
+      layout: "default"
+      site: "Helpd.me"
