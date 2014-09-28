@@ -2,7 +2,7 @@ defaults:
   -
     scope:
       path: ""
-      baseurl: ""
+      baseurl: "http://helpd.me"
     values:
       layout: "default"
       site: "Helpd.me"
