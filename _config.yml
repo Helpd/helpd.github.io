@@ -1,9 +1,9 @@
 # Set the permalink structure for blog posts.
 permalink: /blog/:categories/:title
 
+# Basid website configuration.
+url: http://helpd.me
+
 # Set the defaults for posts and pages.
 layout: default
 tagline: Helpd.me
-
-box:
-  icon: false
