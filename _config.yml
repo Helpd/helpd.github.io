@@ -1,8 +1,5 @@
 defaults:
   -
-    scope:
-      path: ""
-      baseurl: "http://helpd.me"
     values:
       layout: "default"
       site: "Helpd.me"
