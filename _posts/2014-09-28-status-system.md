@@ -1,3 +1,6 @@
+---
+layout: box
+---
 ###Status system
 
 We've launched an external system status page to post updates on service degradation, outages, and planned maintenance.
