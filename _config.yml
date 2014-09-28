@@ -1,7 +1,3 @@
-defaults:
-  -
-    scope:
-      permalink: "/blog/:categories/:title.html"
-    values:
-      layout: "default"
-      site: "Helpd.me"
+permalink: "/blog/:categories/:title"
+layout: "default"
+site: "Helpd.me"
