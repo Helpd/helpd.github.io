@@ -1,173 +1,26 @@
 <html>
-
 <head>
-	<title>Redirecting...</title>
-	
-	<meta http-equiv="refresh" content="0;url=http://helpd.me/">
-	<meta name="robots" content "noindex, follow">
-	
-	<style>
-	body, ul, li {
-			font-family:Arial, Helvetica, sans-serif;
-			font-size:12px;
-			color:#737373;
-			margin:0;
-			padding:0;
-	}
-	a:link, a:visited, a:active {
-			text-decoration: underline;
-			color:#015589;
-	}
-	a:hover {
-			text-decoration: none;
-			color:#51A8DE;
-	}
-	.content {
-			padding: 20px 15px 15px 70px;
-			margin: 0px auto 6px auto;
-			border: #ebebeb solid 1px;
-			width: 500px;
-	}
-	.blocking, .warning, .message {
-			background-repeat:no-repeat;
-			background-position: 9px 9px;
-			}
-	.blocking {
-			border-top: #D52B1E solid 2px;
-			border-bottom: #D52B1E solid 2px;
-			background-image:url(ico_status_error.png);
-			
-	}
-	.warning {
-			border-top: #F0AB00 solid 2px;
-			border-bottom: #F0AB00 solid 2px;
-			background-image:url(ico_status_warning.png);
-	}
-	.message {
-			border-top: #0076C0 solid 2px;
-			border-bottom: #0076C0 solid 2px;
-			background-image:url(data:image/png;base64,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);
-	}
-	.title {
-			font-size: 24px;
-			border-bottom: #ccc solid 1px;
-			padding-bottom:15px;
-			margin-bottom:15px;
-	}
-	.details li {
-			list-style: none;
-			padding: 6px 0;
-	}
-	.url {
-			font-style:italic;
-			font-weight: 700;
-			width: 490px;
-			height: 18px;
-			display:block;
-			overflow: hidden;
-	}
-	.combobox {
-			font-size: 11px;
-			color: #737373;
-	}
-	#textfield {
-			width: 460px;
-	}
-	#button {
-			font-size:11px;
-	}
-	.buttonHolder {
-			padding-top: 6px;
-	}
-	.footer {
-			color: #ccc;
-			font-size: 14px;
-			width: 565px;
-			margin: 0 auto;
-			text-align:right;
-	}
-	ol.stepByStep {
-			margin-left:-40px;
-	}
-	ol.stepByStep ol {
-			margin-left:0 !important;
-			display:none;
-	}
-	ol.stepByStep li.childActive ol, ol.stepByStep li.stepActive ol {
-			display:block !important;
-	}
-	ol.stepByStep li {
-			background-image:url(ico_wz_bullet.gif);
-			background-repeat:no-repeat;
-			font-weight:400;
-			list-style:none;
-			padding:2px 0 2px 20px;
-	}
-	ol.stepByStep li.stepPassed {
-			background-image:url(ico_ok.gif) !important;
-	}
-	ol.stepByStep li.stepWarned {
-			background-image:url(ico_concern.gif) !important;
-	}
-	ol.stepByStep li.stepFailed {
-			background-image:url(ico_error.gif) !important;
-	}
-	ol.stepByStep li.stepActive {
-			background-image:url(ico_busy.gif) !important;
-			font-weight:700;
-			color: #464646;
-	}
-	ol.stepByStep li.stepCurrent {
-			background-image:url(ico_arrow.gif) !important;
-			font-weight:700;
-	}
-	ol.stepByStep li.stepHelp {
-			background-image:url(ico_help.gif) !important;
-			font-weight:700;
-	}
-	.border01 {
-			background-color:#fff;
-	}
-	.border02 {
-			border:#dedede solid 1px;
-			padding: 2px;
-	}
-	.barblue {
-			background-color:#0095D8;
-			height:16px;
-			color: #fff;
-	}
-	.small {
-			font-size: 10px;
-	}
-
-	/* For the scenario when page shows in iFrame */
-	.nologo img, #footer.nologo {
-		display: none;
-	}
-
-	</style>
+	<title>Page not found &raquo; Helpd.me</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/box.css" rel="stylesheet">
 </head>
 
-
 <body>
-	<div id="main">
-		<div align="center"><div style='height: 70px; width: 500px;'></div></div>
-		<div class="content message">
-			<div id="alert_icon">
-			</div>
-			<div id="msg_title" class="title">
-				Redirecting...
-			</div>
-			<div>
-				<p id="error_text">Please wait while you are redirected to another location, which should only take a few seconds.</p>
-				<p><a href="http://helpd.me/">Click here if you prefer not to wait &rarr;</a></p>
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="box">
+					<p class="text-center"><img src="/images/error.png" />
+					<h3 class="text-center">Page not found</h3>
+					<br />
+					<p><b>We can't find the page you were looking for.</b></p>
+					<p>This is probably Rylea's fault. <small><em>Damnit, Rylea.</em></small></p>
+				</div>
 			</div>
 		</div>
 	</div>
-	<div class="footer" id="footer">
-		<strong>Helpd</strong>.me
-	</div>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
-
 </html>
