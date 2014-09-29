@@ -3,11 +3,12 @@ title: Redirecting...
 layout: box
 noindex: true
 ---
-{% if page.redirect == blank %}<p class="text-error">No redirect URL was set.</p>{% endif %}
 {% if page.redirect %}
 <p class="text-center"><img src="http://helpd.me/assets/images/boat.png"/></p>
 <h3 class="text-center">Redirecting...</h3>
 <br/>
 <p>We've moved our blog to a new location. You will be automatically reciredted in a few seconds.</p>
 <p><a href="{{ page.redirect }}">Click here if you are not redirected &rarr;</a></p>
+{% else %}
+<p class="text-error">No redirect URL was set.</p>
 {% endif %}
