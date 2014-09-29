@@ -13,6 +13,6 @@ This layout doesn't parse any content, only populating the manual redirect link 
 ```
 ---
 layout: redirect
-redirect: http://example.com/page-to-recdirect-to
+redirect: http://example.com/page-to-redirect-to
 ---
 ```
