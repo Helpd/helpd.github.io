@@ -1,9 +1,16 @@
 # Set the permalink structure for blog posts.
 permalink: /blog/:categories/:title
 
-# Basid website configuration.
+# Basic website configuration.
 url: https://helpd.me
+markdown: kramdown
+highlighter: pygments
 
 # Set the defaults for posts and pages.
 layout: default
 tagline: Helpd.me
+
+# Plugins
+gems:
+  - jekyll-redirect-from
+  - jekyll-sitemap
