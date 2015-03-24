@@ -1,5 +1,5 @@
 # Set the permalink structure for blog posts.
-permalink: /blog/:categories/:title
+permalink: pretty
 
 # Basic website configuration.
 url: https://helpd.me
