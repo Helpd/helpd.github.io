@@ -9,4 +9,4 @@ Adding into this a few other priority projects for our team, and the launch of t
 
 As such, we'll be picking up the pace in the new year prepping for a closed alpha and open beta readying for launch by the end of 2016!
 
-&ndash; VersoBit Team
+&mdash; VersoBit Team
